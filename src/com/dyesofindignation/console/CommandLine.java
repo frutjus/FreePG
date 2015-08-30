@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
  */
 public class CommandLine {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in ));
         Session session = new Session();
         System.out.print("FreePG\n=========\ntype \"close\" to exit.");
         String sIn = "";
